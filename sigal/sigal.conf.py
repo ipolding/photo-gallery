@@ -34,7 +34,7 @@ theme = "galleria"
 # processing steps (resize, auto-orient, recompress, and any plugin-specific
 # step).
 # Originals will be symlinked if orig_link = True, else they will be copied.
-# use_orig = False
+use_orig = False
 
 # Path to a CSS file that can be used to customize themes
 # user_css =
@@ -134,11 +134,11 @@ thumb_size = (280, 210)
 # orig_dir = 'original'
 
 # Use symbolic links instead of copying the original images
-# orig_link = False
+# orig_link = True
 
 # Use symbolic links that are relative to the source directory instead of
 # absolute paths
-# rel_link = False
+# rel_link = True
 
 # Attribute of Album objects which is used to sort medias (eg 'title'). To
 # sort on a metadata key, use 'meta.key'.
